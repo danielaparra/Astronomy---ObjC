@@ -17,6 +17,7 @@
 		7B3AAD6821ACBE5C0098CD16 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6721ACBE5C0098CD16 /* Camera.swift */; };
 		7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */; };
 		7B3AAD6E21ACF1E00098CD16 /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */; };
+		7B3AAD7121ACF6530098CD16 /* MarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7021ACF6530098CD16 /* MarsRover.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPhoto.m; sourceTree = "<group>"; };
 		7B3AAD6C21ACF1E00098CD16 /* SolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolDescription.h; sourceTree = "<group>"; };
 		7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolDescription.m; sourceTree = "<group>"; };
+		7B3AAD6F21ACF6530098CD16 /* MarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsRover.h; sourceTree = "<group>"; };
+		7B3AAD7021ACF6530098CD16 /* MarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsRover.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +105,13 @@
 		7B3AAD6621ACBD0A0098CD16 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7B3AAD6721ACBE5C0098CD16 /* Camera.swift */,
-				7B3AAD6921ACDA6F0098CD16 /* MarsPhoto.h */,
-				7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */,
 				7B3AAD6C21ACF1E00098CD16 /* SolDescription.h */,
 				7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */,
+				7B3AAD6F21ACF6530098CD16 /* MarsRover.h */,
+				7B3AAD7021ACF6530098CD16 /* MarsRover.m */,
+				7B3AAD6921ACDA6F0098CD16 /* MarsPhoto.h */,
+				7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */,
+				7B3AAD6721ACBE5C0098CD16 /* Camera.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		7B3AAD3E21AC9D270098CD16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYP;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Daniela Parra";
 				TargetAttributes = {
@@ -189,6 +195,7 @@
 				7B3AAD6E21ACF1E00098CD16 /* SolDescription.m in Sources */,
 				7B3AAD6521ACB5FA0098CD16 /* PhotoDetailViewController.swift in Sources */,
 				7B3AAD4B21AC9D270098CD16 /* AppDelegate.m in Sources */,
+				7B3AAD7121ACF6530098CD16 /* MarsRover.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

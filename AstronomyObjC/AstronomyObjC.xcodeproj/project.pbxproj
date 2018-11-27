@@ -18,6 +18,7 @@
 		7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */; };
 		7B3AAD6E21ACF1E00098CD16 /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */; };
 		7B3AAD7121ACF6530098CD16 /* MarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7021ACF6530098CD16 /* MarsRover.m */; };
+		7B3AAD7421AD00520098CD16 /* URL+Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7321AD00520098CD16 /* URL+Secure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolDescription.m; sourceTree = "<group>"; };
 		7B3AAD6F21ACF6530098CD16 /* MarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsRover.h; sourceTree = "<group>"; };
 		7B3AAD7021ACF6530098CD16 /* MarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsRover.m; sourceTree = "<group>"; };
+		7B3AAD7321AD00520098CD16 /* URL+Secure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Secure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		7B3AAD4821AC9D270098CD16 /* AstronomyObjC */ = {
 			isa = PBXGroup;
 			children = (
+				7B3AAD7221ACFDC40098CD16 /* Bridging Header */,
 				7B3AAD6621ACBD0A0098CD16 /* Model */,
 				7B3AAD6021ACB5490098CD16 /* View Controllers */,
 				7B3AAD5F21ACB43D0098CD16 /* Resources */,
@@ -88,6 +91,7 @@
 				7B3AAD5421AC9D2A0098CD16 /* LaunchScreen.storyboard */,
 				7B3AAD5721AC9D2A0098CD16 /* Info.plist */,
 				7B3AAD5821AC9D2A0098CD16 /* main.m */,
+				7B3AAD7321AD00520098CD16 /* URL+Secure.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -97,7 +101,6 @@
 			children = (
 				7B3AAD6221ACB5CC0098CD16 /* PhotosCollectionViewController.swift */,
 				7B3AAD6421ACB5FA0098CD16 /* PhotoDetailViewController.swift */,
-				7B3AAD6121ACB5CB0098CD16 /* AstronomyObjC-Bridging-Header.h */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -114,6 +117,14 @@
 				7B3AAD6721ACBE5C0098CD16 /* Camera.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7B3AAD7221ACFDC40098CD16 /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				7B3AAD6121ACB5CB0098CD16 /* AstronomyObjC-Bridging-Header.h */,
+			);
+			path = "Bridging Header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				7B3AAD6321ACB5CC0098CD16 /* PhotosCollectionViewController.swift in Sources */,
 				7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */,
 				7B3AAD6821ACBE5C0098CD16 /* Camera.swift in Sources */,
+				7B3AAD7421AD00520098CD16 /* URL+Secure.swift in Sources */,
 				7B3AAD5921AC9D2A0098CD16 /* main.m in Sources */,
 				7B3AAD6E21ACF1E00098CD16 /* SolDescription.m in Sources */,
 				7B3AAD6521ACB5FA0098CD16 /* PhotoDetailViewController.swift in Sources */,
@@ -349,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Daniela.AstronomyObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AstronomyObjC/View Controllers/AstronomyObjC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AstronomyObjC/Bridging Header/AstronomyObjC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -372,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Daniela.AstronomyObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "AstronomyObjC/View Controllers/AstronomyObjC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AstronomyObjC/Bridging Header/AstronomyObjC-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

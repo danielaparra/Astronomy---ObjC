@@ -15,6 +15,7 @@
 		7B3AAD6321ACB5CC0098CD16 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6221ACB5CC0098CD16 /* PhotosCollectionViewController.swift */; };
 		7B3AAD6521ACB5FA0098CD16 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6421ACB5FA0098CD16 /* PhotoDetailViewController.swift */; };
 		7B3AAD6821ACBE5C0098CD16 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6721ACBE5C0098CD16 /* Camera.swift */; };
+		7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		7B3AAD6221ACB5CC0098CD16 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		7B3AAD6421ACB5FA0098CD16 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		7B3AAD6721ACBE5C0098CD16 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		7B3AAD6921ACDA6F0098CD16 /* MarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsPhoto.h; sourceTree = "<group>"; };
+		7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				7B3AAD6721ACBE5C0098CD16 /* Camera.swift */,
+				7B3AAD6921ACDA6F0098CD16 /* MarsPhoto.h */,
+				7B3AAD6A21ACDA6F0098CD16 /* MarsPhoto.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3AAD6321ACB5CC0098CD16 /* PhotosCollectionViewController.swift in Sources */,
+				7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */,
 				7B3AAD6821ACBE5C0098CD16 /* Camera.swift in Sources */,
 				7B3AAD5921AC9D2A0098CD16 /* main.m in Sources */,
 				7B3AAD6521ACB5FA0098CD16 /* PhotoDetailViewController.swift in Sources */,

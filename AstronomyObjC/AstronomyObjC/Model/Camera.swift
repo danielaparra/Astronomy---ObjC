@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Camera: Codable, Equatable {
+@objc class Camera: NSObject, Codable {
     
     static func == (lhs: Camera, rhs: Camera) -> Bool {
         return lhs.id == rhs.id &&

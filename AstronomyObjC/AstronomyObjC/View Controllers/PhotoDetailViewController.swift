@@ -38,7 +38,16 @@ class PhotoDetailViewController: UIViewController {
     // MARK: - Private Functions
     
     private func updateViews() {
-        
+//        guard let photo = photo, isViewLoaded else { return }
+//        do {
+//            let data = try Data(contentsOf: photo.imageURL.usingHTTPS!)
+//            imageView.image = UIImage(data: data)
+//            let dateString = dateFormatter.string(from: photo.earthDate)
+//            detailLabel.text = "Taken by \(photo.camera.roverId) on \(dateString) (Sol \(photo.sol))"
+//            cameraLabel.text = photo.camera.fullName
+//        } catch {
+//            NSLog("Error setting up views on detail view controller: \(error)")
+//        }
     }
     
     private func presentSuccessfulSaveAlert() {

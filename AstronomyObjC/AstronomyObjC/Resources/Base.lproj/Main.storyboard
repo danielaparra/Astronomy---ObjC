@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="trailing" secondItem="A0Z-Sm-B1U" secondAttribute="trailing" id="bPX-ZV-nyH"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="iya-Q7-YbW" kind="show" id="dFK-nw-8x2"/>
+                                    <segue destination="iya-Q7-YbW" kind="show" identifier="ShowDetail" id="dFK-nw-8x2"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>

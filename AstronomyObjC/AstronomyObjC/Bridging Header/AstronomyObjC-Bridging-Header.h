@@ -3,3 +3,5 @@
 //
 
 #import "MarsPhoto.h"
+#import "SolDescription.h"
+#import "MarsRover.h"

@@ -38,17 +38,16 @@ class PhotosCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-        //cast as custom cell?
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? DYPImageCollectionViewCell ?? DYPImageCollectionViewCell()
         
-        
-        //load image for cell
+        loadImage(forCell: cell, forItemAt: indexPath)
     
         return cell
     }
     
     override func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        
+        let photo = photos[indexPath.item]
+        operations[photo.identifier]?.cancel()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -123,7 +122,7 @@ class PhotosCollectionViewController: UICollectionViewController {
         solLabel.text = "Sol \(solDescription?.sol ?? 0)"
     }
     
-    private func loadImage(forCell cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    private func loadImage(forCell cell: DYPImageCollectionViewCell, forItemAt indexPath: IndexPath) {
     
     }
     
@@ -132,8 +131,8 @@ class PhotosCollectionViewController: UICollectionViewController {
 //    private let client = MarsRoverClient()
 //    private let cache = Cache<Int, UIImage>()
 //    private let photoFetchQueue = OperationQueue()
-//    private var operations = [Int : Operation]()
-//
+    private var operations = [Int : Operation]()
+
     private var rover: MarsRover? {
         didSet {
             solDescription = rover?.solDescriptions[2]

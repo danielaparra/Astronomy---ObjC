@@ -19,6 +19,7 @@
 		7B3AAD6E21ACF1E00098CD16 /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD6D21ACF1E00098CD16 /* SolDescription.m */; };
 		7B3AAD7121ACF6530098CD16 /* MarsRover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7021ACF6530098CD16 /* MarsRover.m */; };
 		7B3AAD7421AD00520098CD16 /* URL+Secure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7321AD00520098CD16 /* URL+Secure.swift */; };
+		7B3AAD7721AD05A10098CD16 /* DYPImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3AAD7621AD05A10098CD16 /* DYPImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		7B3AAD6F21ACF6530098CD16 /* MarsRover.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarsRover.h; sourceTree = "<group>"; };
 		7B3AAD7021ACF6530098CD16 /* MarsRover.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsRover.m; sourceTree = "<group>"; };
 		7B3AAD7321AD00520098CD16 /* URL+Secure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Secure.swift"; sourceTree = "<group>"; };
+		7B3AAD7521AD05A10098CD16 /* DYPImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYPImageCollectionViewCell.h; sourceTree = "<group>"; };
+		7B3AAD7621AD05A10098CD16 /* DYPImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYPImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				7B3AAD6221ACB5CC0098CD16 /* PhotosCollectionViewController.swift */,
+				7B3AAD7521AD05A10098CD16 /* DYPImageCollectionViewCell.h */,
+				7B3AAD7621AD05A10098CD16 /* DYPImageCollectionViewCell.m */,
 				7B3AAD6421ACB5FA0098CD16 /* PhotoDetailViewController.swift */,
 			);
 			path = "View Controllers";
@@ -201,6 +206,7 @@
 			files = (
 				7B3AAD6321ACB5CC0098CD16 /* PhotosCollectionViewController.swift in Sources */,
 				7B3AAD6B21ACDA6F0098CD16 /* MarsPhoto.m in Sources */,
+				7B3AAD7721AD05A10098CD16 /* DYPImageCollectionViewCell.m in Sources */,
 				7B3AAD6821ACBE5C0098CD16 /* Camera.swift in Sources */,
 				7B3AAD7421AD00520098CD16 /* URL+Secure.swift in Sources */,
 				7B3AAD5921AC9D2A0098CD16 /* main.m in Sources */,
